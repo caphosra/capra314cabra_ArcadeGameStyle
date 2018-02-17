@@ -391,6 +391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa770ee51e207641bf1ff46c550fe3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hiScoreText: {fileID: 302021803}
   firstStage: stage1-1
 --- !u!1 &929322215
 GameObject:

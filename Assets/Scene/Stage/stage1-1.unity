@@ -3752,6 +3752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2050725425}
   - component: {fileID: 2050725426}
+  - component: {fileID: 2050725427}
   m_Layer: 0
   m_Name: GameDirector
   m_TagString: Untagged
@@ -3792,6 +3793,17 @@ MonoBehaviour:
   gameOverScene: Scene/GameOver
   moveNextStageTime: 3
   moveGameOverSceneTime: 1
+--- !u!114 &2050725427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2050725424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a53d4a201e2314da3c71b174b8a3ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2065587095
 GameObject:
   m_ObjectHideFlags: 0

@@ -37,6 +37,9 @@ public class GameDirector : MonoBehaviour
     {
         GameState = GameState.GAME;
         time = 0;
+
+        GameObject.Find("ScoreText").GetComponent<UnityEngine.UI.Text>().text =
+                "Score : " + System.String.Format("{0:D7}", ScoreManager.Score);
     }
 
     private float time;
@@ -85,6 +88,10 @@ public class GameDirector : MonoBehaviour
                 foreach (var b in obj.GetComponents<Behaviour>())
                 {
                     if (b is BATTLE_Character || b is PlayerController) b.enabled = false;
+                }
+                if(obj.tag == "Bullet")
+                {
+                    Destroy(obj);
                 }
             }
             gameCanvas.SetActive(false);

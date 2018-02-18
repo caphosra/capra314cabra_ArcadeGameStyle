@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Name: DarkBallData
   m_EditorClassIdentifier: 
   m_Speed: 0.1
-  m_Damege: 50
+  m_Damege: 70
   m_AttackType: 0
   m_AddStatus: 0

@@ -94,6 +94,13 @@ public class GameDirector : MonoBehaviour
                     Destroy(obj);
                 }
             }
+
+            var p = player.GetComponent(typeof(IBATTLE_Character)) as IBATTLE_Character;
+            ScoreManager.Score += p.HP;
+
+            GameObject.Find("ScoreText").GetComponent<UnityEngine.UI.Text>().text =
+                "Score : " + System.String.Format("{0:D7}", ScoreManager.Score);
+
             gameCanvas.SetActive(false);
             gameClearCanvas.SetActive(true);
         }

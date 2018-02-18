@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TitleManager : MonoBehaviour
 {
     public Text hiScoreText;
+
     public string firstStage;
+    public string optionScene;
 
     // Use this for initialization
     void Start()
@@ -17,6 +20,7 @@ public class TitleManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) UnityEngine.SceneManagement.SceneManager.LoadScene(firstStage);
+        if (Input.GetKeyDown(KeyCode.Space)) SceneManager.LoadScene(firstStage);
+        if (Input.GetKeyDown(KeyCode.Escape)) SceneManager.LoadScene(optionScene);
     }
 }

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 56a1755ff0ffd6541a4c9713a6b19bed
-timeCreated: 1518338004
+guid: b99ca349562221b49b62926e9d4be0d3
+timeCreated: 1517810591
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -131,7 +131,7 @@ TextureImporter:
     sprites: []
     outline: []
     physicsShape: []
-  spritePackingTag: 
+  spritePackingTag: Ballet
   userData: 
   assetBundleName: 
   assetBundleVariant: 

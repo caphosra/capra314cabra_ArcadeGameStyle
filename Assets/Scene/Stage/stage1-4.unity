@@ -378,6 +378,7 @@ Transform:
   - {fileID: 2072158629}
   - {fileID: 1226513488}
   - {fileID: 243147700}
+  - {fileID: 377080127}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -940,6 +941,57 @@ Transform:
   m_Father: {fileID: 2026428455}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &377080126
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 174888580}
+    m_Modifications:
+    - target: {fileID: 4672837359617732, guid: 424a06e4658a34d418790f37dd141735, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672837359617732, guid: 424a06e4658a34d418790f37dd141735, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672837359617732, guid: 424a06e4658a34d418790f37dd141735, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672837359617732, guid: 424a06e4658a34d418790f37dd141735, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672837359617732, guid: 424a06e4658a34d418790f37dd141735, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672837359617732, guid: 424a06e4658a34d418790f37dd141735, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672837359617732, guid: 424a06e4658a34d418790f37dd141735, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672837359617732, guid: 424a06e4658a34d418790f37dd141735, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861641910281658, guid: 424a06e4658a34d418790f37dd141735, type: 2}
+      propertyPath: m_Name
+      value: ZombieMODOKI(Lv.2) (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 424a06e4658a34d418790f37dd141735, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &377080127 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4672837359617732, guid: 424a06e4658a34d418790f37dd141735,
+    type: 2}
+  m_PrefabInternal: {fileID: 377080126}
 --- !u!1 &399112124
 GameObject:
   m_ObjectHideFlags: 0

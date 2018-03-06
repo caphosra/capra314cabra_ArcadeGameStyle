@@ -3704,7 +3704,7 @@ MonoBehaviour:
   gameClearCanvas: {fileID: 731746913}
   gameOverCanvas: {fileID: 1617960890}
   enemys: {fileID: 174888579}
-  nextStage: Scene/Stage/stage1-boss
+  nextStage: Scene/Stage/stage2-1
   gameOverScene: Scene/GameOver
   moveNextStageTime: 2
   moveGameOverSceneTime: 1

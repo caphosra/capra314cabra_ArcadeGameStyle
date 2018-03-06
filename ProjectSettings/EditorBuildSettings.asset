@@ -27,5 +27,8 @@ EditorBuildSettings:
     path: Assets/Scene/Stage/stage1-boss.unity
     guid: ea4431bdfcda5f24fb9e14f8cc816175
   - enabled: 1
+    path: Assets/Scene/Stage/stage2-1.unity
+    guid: 7cdf70deaebccc649b083abf30a8106b
+  - enabled: 1
     path: Assets/Scene/GameOver.unity
     guid: 85c340cc4872ba54984aab182179f377

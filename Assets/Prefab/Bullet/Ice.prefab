@@ -120,6 +120,7 @@ MonoBehaviour:
   dataTable: {fileID: 11400000, guid: 142b1a82a72cd864b8a2dc7c01286ee5, type: 2}
   m_Tag:
   - Enemy
+  m_Power: 1
   m_To: {x: 0, y: 0}
 --- !u!212 &212873269275922454
 SpriteRenderer:

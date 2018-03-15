@@ -6,6 +6,7 @@ public class BulletMove : MonoBehaviour
 {
     public BalletDataTable dataTable;
     public string[] m_Tag;
+    public int m_Power;
 
     [HideInInspector]
     public Vector2 m_To;
@@ -28,6 +29,12 @@ public class BulletMove : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if(collision.gameObject.tag == "GuardBlock")
+        {
+            if(m_Power < collision.gameObject.GetComponent<GuardBlockScript>().data.CanGuard)
+                Destroy(gameObject);
+        }
+
         foreach (var tag in m_Tag)
         {
             if(collision.gameObject.tag == tag)

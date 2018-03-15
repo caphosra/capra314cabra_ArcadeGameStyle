@@ -1,13 +1,24 @@
 fileFormatVersion: 2
 guid: a8d093f8b4042ad418a6d51f7e4da24a
-timeCreated: 1517812133
+timeCreated: 1521029958
 licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - dataTable: {instanceID: 0}
+  - gameDirector: {instanceID: 0}
+  - died: {instanceID: 0}
+  - fire: {instanceID: 0}
+  - ice: {instanceID: 0}
+  - fireMode: {fileID: 21300000, guid: 0c941f218e25af648b6cd9112e6fbd0d, type: 3}
+  - iceMode: {fileID: 21300000, guid: 56a1755ff0ffd6541a4c9713a6b19bed, type: 3}
+  - bullet_from: {instanceID: 0}
+  - bullet_to: {instanceID: 0}
+  - HPText: {instanceID: 0}
+  - PlayerModeImage: {instanceID: 0}
   executionOrder: 0
-  icon: {instanceID: 0}
+  icon: {fileID: 2800000, guid: 2dd31199eb4a77b479d2e2247a4973aa, type: 3}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

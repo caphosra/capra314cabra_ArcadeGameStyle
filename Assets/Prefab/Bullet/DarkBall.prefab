@@ -102,6 +102,7 @@ MonoBehaviour:
   dataTable: {fileID: 11400000, guid: 4003b943990baae4ab2de7afab760d2a, type: 2}
   m_Tag:
   - Player
+  m_Power: 4
   m_To: {x: 0, y: 0}
 --- !u!212 &212078524087516704
 SpriteRenderer:

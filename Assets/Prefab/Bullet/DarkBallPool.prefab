@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4174217257749472}
   - component: {fileID: 114195904277528932}
   m_Layer: 0
-  m_Name: DarkBulletPool
+  m_Name: DarkBallPool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

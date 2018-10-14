@@ -24,7 +24,7 @@ public class BulletMove : MonoBehaviour
     {
         if (m_To.x < transform.position.x) transform.localScale = new Vector3(-5, 5, 5);
         me.MovePosition(Vector2.MoveTowards(me.position, m_To, dataTable.Speed));
-        if (me.position == m_To) Destroy(gameObject);
+        if (me.position == m_To) gameObject.SetActive(false);
 	}
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -32,7 +32,7 @@ public class BulletMove : MonoBehaviour
         if(collision.gameObject.tag == "GuardBlock")
         {
             if(m_Power < collision.gameObject.GetComponent<GuardBlockScript>().data.CanGuard)
-                Destroy(gameObject);
+                gameObject.SetActive(false);
         }
 
         foreach (var tag in m_Tag)
@@ -42,7 +42,7 @@ public class BulletMove : MonoBehaviour
                 var hit = collision.gameObject.GetComponent(typeof(IBATTLE_Character)) as IBATTLE_Character;
                 hit.Damege(dataTable.Damege, dataTable.AttackType);
                 hit.AddStatus(dataTable.AddStatus);
-                Destroy(gameObject);
+                gameObject.SetActive(false);
                 
                 break;
             }

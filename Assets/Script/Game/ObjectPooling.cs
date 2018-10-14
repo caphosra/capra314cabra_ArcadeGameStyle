@@ -9,7 +9,7 @@ public class ObjectPooling : MonoBehaviour
     [SerializeField]
     private int startCount;
 
-    private List<GameObject> objects;
+    private List<GameObject> objects = new List<GameObject>();
 
     private void Start()
     {

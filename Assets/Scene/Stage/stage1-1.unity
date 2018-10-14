@@ -846,6 +846,48 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 621555213}
   m_CullTransparentMesh: 0
+--- !u!1001 &664880625
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4090341851995590, guid: 6d8811fb1ef5f1d4faca9a5162531d6f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4090341851995590, guid: 6d8811fb1ef5f1d4faca9a5162531d6f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4090341851995590, guid: 6d8811fb1ef5f1d4faca9a5162531d6f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4090341851995590, guid: 6d8811fb1ef5f1d4faca9a5162531d6f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4090341851995590, guid: 6d8811fb1ef5f1d4faca9a5162531d6f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4090341851995590, guid: 6d8811fb1ef5f1d4faca9a5162531d6f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4090341851995590, guid: 6d8811fb1ef5f1d4faca9a5162531d6f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4090341851995590, guid: 6d8811fb1ef5f1d4faca9a5162531d6f, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d8811fb1ef5f1d4faca9a5162531d6f, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &725496104
 GameObject:
   m_ObjectHideFlags: 0
@@ -1579,6 +1621,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1929569221
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4913736745380598, guid: 92fbc22c8e79a6441b12e8c92f528ed9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913736745380598, guid: 92fbc22c8e79a6441b12e8c92f528ed9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913736745380598, guid: 92fbc22c8e79a6441b12e8c92f528ed9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913736745380598, guid: 92fbc22c8e79a6441b12e8c92f528ed9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913736745380598, guid: 92fbc22c8e79a6441b12e8c92f528ed9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913736745380598, guid: 92fbc22c8e79a6441b12e8c92f528ed9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913736745380598, guid: 92fbc22c8e79a6441b12e8c92f528ed9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913736745380598, guid: 92fbc22c8e79a6441b12e8c92f528ed9, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 92fbc22c8e79a6441b12e8c92f528ed9, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1962663926
 GameObject:
   m_ObjectHideFlags: 0
@@ -1836,6 +1920,8 @@ MonoBehaviour:
   bullet_to: {fileID: 1962663927}
   HPText: {fileID: 341946316}
   PlayerModeImage: {fileID: 897865940}
+  firePool: {fileID: 0}
+  icePool: {fileID: 0}
 --- !u!61 &2026428458
 BoxCollider2D:
   m_ObjectHideFlags: 0

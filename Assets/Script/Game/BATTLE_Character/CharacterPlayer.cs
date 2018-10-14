@@ -37,6 +37,9 @@ public class CharacterPlayer : BATTLE_Character
 
     private void Start()
     {
+        firePool = GameObject.Find("FirePool").GetComponent<ObjectPooling>();
+        icePool = GameObject.Find("IcePool").GetComponent<ObjectPooling>();
+
         animator = GetComponent<Animator>();
         HP = MaxHP;
         HPTextUpdate();
@@ -99,14 +102,19 @@ public class CharacterPlayer : BATTLE_Character
         }
     }
 
+    [SerializeField]
+    private ObjectPooling firePool;
+    [SerializeField]
+    private ObjectPooling icePool;
+
     public void ShootFire()
     {
-        GameFunc.ShootSomething(fire, bullet_from.position, bullet_to.position);
+        GameFunc.ShootSomething(firePool, bullet_from.position, bullet_to.position);
     }
 
     public void ShootIce()
     {
-        GameFunc.ShootSomething(ice, bullet_from.position, bullet_to.position);
+        GameFunc.ShootSomething(icePool, bullet_from.position, bullet_to.position);
     }
 
     public void HPTextUpdate()

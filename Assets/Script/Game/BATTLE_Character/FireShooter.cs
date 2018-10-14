@@ -17,6 +17,8 @@ public class FireShooter : BATTLE_Character {
 
     private void Start()
     {
+        firePool = GameObject.Find("Fire_EnemyPool").GetComponent<ObjectPooling>();
+
         animator = GetComponent<Animator>();
         HP = MaxHP;
     }
@@ -31,8 +33,10 @@ public class FireShooter : BATTLE_Character {
         // 自動
     }
 
+    [SerializeField]
+    private ObjectPooling firePool;
     public void ShootFire()
     {
-        GameFunc.ShootSomething(fire, bullet_from.position, bullet_to.position);
+        GameFunc.ShootSomething(firePool, bullet_from.position, bullet_to.position);
     }
 }

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: GameSprite
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 0c94395eb97c7234fa02d93635d79edf, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b0bd5300c7b64364280642448ad547f1, type: 3}
+  - {fileID: 21300000, guid: 36663f509e5f3534096d7a14c2861ad4, type: 3}
+  - {fileID: 21300000, guid: 2ffbbe90f375b0d4c806fc9973270d5c, type: 3}
+  - {fileID: 21300000, guid: 0c941f218e25af648b6cd9112e6fbd0d, type: 3}
+  - {fileID: 21300000, guid: 819047d139b3bd144bf1d621e3134bcb, type: 3}
+  - {fileID: 21300000, guid: f86b2f12cda29c54da6b444feb4877b1, type: 3}
+  - {fileID: 21300000, guid: 74dfe2821d9287c40aa55d5dce956cdb, type: 3}
+  - {fileID: 21300000, guid: e2cc04b2353ca72429d2a9226a4f75a3, type: 3}
+  - {fileID: 21300000, guid: 31a6751489843634f87558abc61da0ce, type: 3}
+  - {fileID: 21300000, guid: f22310258fa7d9f468f23961831fda35, type: 3}
+  - {fileID: 21300000, guid: e11491367a750ce44ac12ebf6912df62, type: 3}
+  - {fileID: 21300000, guid: b5ea63a6d1cd433448af94b4916e57ec, type: 3}
+  - {fileID: 21300000, guid: 5f13b3b65baa79247a7eea1d0012213a, type: 3}
+  - {fileID: 21300000, guid: 482c3c075f718e047833c77f738eef57, type: 3}
+  - {fileID: 21300000, guid: 3e03c3b7150265e48a3a9eb6f0d49a0f, type: 3}
+  - {fileID: 21300000, guid: eee5a2684ef305248b14ea9cfb6dcb01, type: 3}
+  - {fileID: 21300000, guid: b99ca349562221b49b62926e9d4be0d3, type: 3}
+  - {fileID: 21300000, guid: 2dd3ce79f9958d24ba16041c99219766, type: 3}
+  - {fileID: 21300000, guid: 2dd31199eb4a77b479d2e2247a4973aa, type: 3}
+  - {fileID: 21300000, guid: 42aac2f9cdde6264c9983f1a8c18cb19, type: 3}
+  - {fileID: 21300000, guid: 798edf4a5d1761d43be21517b50d27ad, type: 3}
+  - {fileID: 21300000, guid: 1d87bfeb5ba278c4ba1296096391cfda, type: 3}
+  - {fileID: 21300000, guid: d526611c41c574447a3321af863afe90, type: 3}
+  - {fileID: 21300000, guid: cc47dc4cf0a6da046b263cab2049dba8, type: 3}
+  - {fileID: 21300000, guid: 2d7075bd3136fd14690dabae1f74245a, type: 3}
+  - {fileID: 21300000, guid: 0ac6cd2edb6733e478a251d84f6758e3, type: 3}
+  - {fileID: 21300000, guid: cc9e201f121aca5429924feb30f07c7c, type: 3}
+  - {fileID: 21300000, guid: 56a1755ff0ffd6541a4c9713a6b19bed, type: 3}
+  - {fileID: 21300000, guid: f00799ff7baeecb43b3e9c9d769c794f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - kusa
+  - FireSniper
+  - FireShooter
+  - FireMode
+  - BATTLE_MAN_GREEN_2
+  - GuardBlock2
+  - FireSniper_2
+  - yama
+  - ZombieMODOKI
+  - ENEMY_BATTLE_MAN
+  - machi
+  - ENEMY_BATTLE_MAN_2
+  - Ice
+  - BATTLE_MAN_BLUE
+  - BATTLE_MAN_YELLOW
+  - BATTLE_MAN_GREEN
+  - Fire
+  - BATTLE_MAN_BLUE_2
+  - BATTLE_MAN_RED
+  - ZombieMODOKI(Lv.2)
+  - Ice2
+  - Died
+  - BATTLE_MAN_YELLOW_2
+  - GuardBlock
+  - FireShooter2
+  - BATTLE_MAN_RED_2
+  - road
+  - IceMode
+  - DarkBall
+  m_Tag: GameSprite
+  m_IsVariant: 0

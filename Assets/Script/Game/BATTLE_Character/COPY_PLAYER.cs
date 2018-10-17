@@ -19,6 +19,8 @@ public class COPY_PLAYER : BATTLE_Character
 
     private void Start()
     {
+        darkBallPool = GameObject.Find("DarkBallPool").GetComponent<ObjectPooling>();
+
         animator = GetComponent<Animator>();
         rigidBody2D = GetComponent<Rigidbody2D>();
 
@@ -40,8 +42,10 @@ public class COPY_PLAYER : BATTLE_Character
         }
     }
 
+    [SerializeField]
+    private ObjectPooling darkBallPool;
     public void ShootDarkBall()
     {
-        GameFunc.ShootSomething(darkBall, bullet_from[0].position, bullet_to[0].position);
+        GameFunc.ShootSomething(darkBallPool, bullet_from[0].position, bullet_to[0].position);
     }
 }

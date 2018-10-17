@@ -91,7 +91,7 @@ public class GameDirector : MonoBehaviour
                 }
                 if(obj.tag == "Bullet")
                 {
-                    Destroy(obj);
+                    obj.SetActive(false);
                 }
             }
 
@@ -146,6 +146,15 @@ public class GameFunc
     public static void ShootSomething(GameObject bullet, Vector3 from, Vector3 to)
     {
         var obj = Object.Instantiate(bullet, from, Quaternion.identity);
+        var bulletmove = obj.GetComponent<BulletMove>();
+        bulletmove.m_To = to;
+    }
+
+    public static void ShootSomething(ObjectPooling pool, Vector3 from, Vector3 to)
+    {
+        var obj = pool.GetObject();
+        obj.transform.position = from;
+        obj.transform.rotation = Quaternion.identity;
         var bulletmove = obj.GetComponent<BulletMove>();
         bulletmove.m_To = to;
     }
